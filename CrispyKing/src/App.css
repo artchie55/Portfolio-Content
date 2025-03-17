@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#img1, #img2 {
+    border-radius: 70% 24% 37% 74%/60% 30% 70% 40%;
+}
+
+#Cimg {
+    height: 340px;
+    width: auto;
+}

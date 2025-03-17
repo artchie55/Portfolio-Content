@@ -1,0 +1,160 @@
+#CozyText {
+    font-family: "Leckerli One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    
+    font-family: "Roboto Flex", serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712;
+
+      background-color: #e293002d;
+  
+}
+
+
+/* Custom CSS for staggered animations */
+.grid-item {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.grid-item.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered delays */
+.grid-item-1.animate {
+  transition-delay: 0.1s;
+}
+
+.grid-item-2.animate {
+  transition-delay: 0.2s;
+}
+
+.grid-item-3.animate {
+  transition-delay: 0.3s;
+}
+
+.grid-item-4.animate {
+  transition-delay: 0.4s;
+}
+
+.grid-item:nth-child(1).animate {
+  transition-delay: 0.1s;
+}
+
+.grid-item:nth-child(2).animate {
+  transition-delay: 0.2s;
+}
+
+.grid-item:nth-child(3).animate {
+  transition-delay: 0.3s;
+}
+
+.grid-item:nth-child(4).animate {
+  transition-delay: 0.4s;
+}
+
+.grid-item:nth-child(5).animate {
+  transition-delay: 0.1s;
+}
+
+.grid-item:nth-child(6).animate {
+  transition-delay: 0.2s;
+}
+
+.grid-item:nth-child(7).animate {
+  transition-delay: 0.3s;
+}
+
+.grid-item:nth-child(8).animate {
+  transition-delay: 0.4s;
+}
+
+.grid-item:nth-child(9).animate {
+  transition-delay: 0.1s;
+}
+
+.grid-item:nth-child(10).animate {
+  transition-delay: 0.2s;
+}
+
+.grid-item:nth-child(11).animate {
+  transition-delay: 0.3s;
+}
+
+.grid-item:nth-child(12).animate {
+  transition-delay: 0.4s;
+}
+
+.grid-item:nth-child(13).animate {
+  transition-delay: 0.1s;
+}
+
+.grid-item:nth-child(14).animate {
+  transition-delay: 0.2s;
+}
+
+.grid-item:nth-child(15).animate {
+  transition-delay: 0.3s;
+}
+
+.grid-item:nth-child(16).animate {
+  transition-delay: 0.4s;
+}
+
+
+/* Slide in from the left */
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.slide-in-left.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Slide in from the right */
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.slide-in-right.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Slide up from the bottom */
+.slide-in-bottom {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.slide-in-bottom.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+

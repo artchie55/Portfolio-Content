@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#Antifrag {
+    font-family: "Tiny5", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#shadowtext, #Antifrag {
+
+    text-shadow: 6px 4px 0px rgba(0,0,0,0.68);
+}
+
+@keyframes updown {
+
+    10% {
+        transform: translatey(-6%);
+    }
+    
+    20% {
+        transform: translatey(6%);
+    }
+    
+    30% {
+        transform: translatey(-6%);
+    }
+    
+    40% {
+        transform: translatey(6%);
+    }
+    
+    50% {
+        transform: translatey(-6%);
+    }
+    
+    60% {
+        transform: translatey(6%);
+    }
+    
+    70% {
+        transform: translatey(-6%);
+    }
+    
+    80% {
+        transform: translatey(6%);
+    }
+    90% {
+        transform: translatey(-6%);
+    }
+    
+    100% {
+        transform: translatey(6%);
+    }
+
+
+}
+
+#imgpuzzle {
+
+    animation: updown 13s infinite;
+}
+
+*{
+    cursor: url('https://pbs.twimg.com/profile_images/1878980339772567552/A4GDxQa8_400x400.jpg');
+  }
+
+
+
+
+
+
+
+
+  
