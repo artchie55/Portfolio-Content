@@ -9,5 +9,3 @@ https://partners-dao.netlify.app/
 https://jollibee-clone-artchie.netlify.app/
 
 https://crispyking-clone-artchie.netlify.app/
-
-https://real-estate-revamp.netlify.app/
