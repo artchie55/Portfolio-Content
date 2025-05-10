@@ -12,6 +12,4 @@ https://crispyking-clone-artchie.netlify.app/
 
 https://real-estate-revamp.netlify.app/
 
-https://artchie-price-tracker.netlify.app/     -  (If you want to try Logging in and have your registered name Welcomed in the Website, You can download the Files for this Website.
-                                                      After you've downloaded it, there's a folder called PriceTracker inside the Home Folder cut that folder and paste it to your
-                                                       Xampp htdocs folder.)
+https://artchie-price-tracker.netlify.app/    -  (If you want to try the  simple mysql backend Sign up and Logging in and have your registered name Welcomed in the Website, You can download the Files for this Website. After you've downloaded it, there's a folder called PriceTracker inside the Home Folder cut that folder and paste it to your Xampp htdocs folder.)
