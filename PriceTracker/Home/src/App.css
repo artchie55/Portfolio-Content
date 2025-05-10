@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+@theme {
+    --breakpoint-1400: 1400px;
+    --breakpoint-1070: 1070px;
+    --breakpoint-770: 770px;
+    --breakpoint-647: 647px;
+  }
+
+#anton {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  
+#raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  
